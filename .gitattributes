@@ -1,3 +1,0 @@
-# Ensure JSX files are detectable and classified as React
-*.jsx linguist-detectable=true
-*.jsx linguist-language=React
