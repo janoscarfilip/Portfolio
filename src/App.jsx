@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <div className='flex flex-col md:flex-row justify-center gap-4'>
+      <div className='flex flex-col gap-16 p-4 items-center'>
         <Card1/>
         <Card2/>
         <Card3/>
