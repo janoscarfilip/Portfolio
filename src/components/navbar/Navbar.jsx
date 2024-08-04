@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar(){
     return (
-        <nav className="">
+        <nav className="text-emerald-500">
             Portfolio
         </nav>
     );
