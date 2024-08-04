@@ -1,13 +1,17 @@
 import './App.css'
 import './index.css';
 import Navbar from './components/navbar/Navbar';
-import Card from './components/card/Card';
+import Card1 from './components/card/Card1';
+import Card2 from './components/card/Card2';
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Card/>
+      <div className='flex flex-col md:flex-row justify-center gap-4'>
+        <Card1/>
+        <Card2/>
+      </div>
     </>
   )
 }
