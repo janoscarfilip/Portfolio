@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar(){
     return (
-        <nav className="flex flex-row justify-between text-text-color p-8">
+        <nav className="flex flex-row justify-between text-main-color p-8">
             <p className="text-xl">Portfolio</p>
             <div className="flex flex-row gap-x-8 text-xl">
                 <a href="https://www.linkedin.com/in/oscar-gustavsson/" target='_blank'>LinkedIn ↗️</a>
