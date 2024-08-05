@@ -11,6 +11,7 @@ export default {
         'travel': 'rgb(239 68 68)',
         'emerald': 'rgb(16 185 129)',
         'amber': 'rgb(245 158 11)',
+        'main-color': 'var(--main-color)',
         'text-color': 'var(--text-color)',
         'background-color': 'var(--background-color)',
       },
