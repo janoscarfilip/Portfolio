@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function WelcomeCard(){
     return(
@@ -7,9 +8,7 @@ function WelcomeCard(){
             <p className="text-main-color mb-4">
                 Here you can read more about me and see some of my projects.
             </p>
-            <button className="mt-4 w-full py-2 px-4 text-main-color text-white rounded-lg border-2 hover:bg-blue-600 transition-colors">
-                Enter portal!
-            </button>
+            <Link to={`Home`} className="mt-4 w-full py-2 px-4 text-main-color text-white rounded-lg border-2 hover:bg-blue-600 transition-colors">Enter portal!</Link>
         </div>
     );
 };
