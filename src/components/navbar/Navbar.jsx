@@ -2,9 +2,9 @@ import React from 'react';
 
 function Navbar(){
     return (
-        <nav className="flex flex-row justify-between text-main-color p-8">
-            <a href="" className="text-xl">Portfolio</a>
-            <div className="flex flex-row items-center gap-x-8 text-xl">
+        <nav className="flex flex-row justify-between p-8">
+            <a href="" className="text-main-color text-xl">Portfolio</a>
+            <div className="text-main-color flex flex-row items-center gap-x-8 text-xl">
                 <a href="https://www.linkedin.com/in/oscar-gustavsson/" target='_blank'>LinkedIn ↗️</a>
                 <a href="https://github.com/janoscarfilip" className='flex items-center gap-x-2' target='_blank'><img src="/github-mark-white.png" className='w-10' alt="Github white logo."/><p>GitHub ↗️</p></a>
             </div>
